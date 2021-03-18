@@ -1,0 +1,1 @@
+<h2>Welcome ${pageContext.request.userPrincipal.name}<br> |<a href="${pageContext.request.contextPath}/"><span>Home</span></a>  | <a href="${pageContext.request.contextPath}/listUser">Show User</a> | <a href="${pageContext.request.contextPath}/logout">Logout</a></h2>
